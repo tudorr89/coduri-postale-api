@@ -64,11 +64,9 @@ RUN apk update; \
     intl \
     gd \
     redis \
-    rdkafka \
     memcached \
     igbinary \
     ldap \
-    swoole \
     && docker-php-source delete \
     && rm -rf /var/cache/apk/* /tmp/* /var/tmp/*
 
